@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
+    height: 300px;
+    width: 300px;
+}
+
+#navbar {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    overflow: hidden;
+    z-index: 9999;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar ul {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#navbar li {
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+}
+
+a {
+    color: #fff;
+}
+
+#navbar a {
+    line-height: 50px;
+    margin: 0 6px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: rgb(49, 110, 189);
+    color: rgb(50,50,50);
+    transition: all, 0.3s;
+}
+
+.active {
+    background-color: rgb(49, 110, 189);
+    color: rgb(50,50,50);
+}
+
+.container {
+    position: relative;
+    overflow: auto;
+    display: flex;
+    border-bottom: 2px solid rgb(49, 110, 189);
+}
+
+.left {
+    float: left;
+    width: 50%;
+    padding: 30px;   
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+.page_title {
+    padding: 0 150px; 
+}
+
+.content {
+
+}
+
+#about {
+    margin: 20px;
+    padding: 30px;
+    min-height: 400px;
+}
+
+#about img {
+    margin: 20px;
+    border-radius: 120px;
+    justify-content: center;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+    margin: 40px;
+    justify-content: center;
+}
+
+#services {
+    margin: 20px;
+    padding: 30px;
+    min-height: 400px;
+}
+
+#services ul {
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+    margin: 40px;
+    justify-content: center;
+}
+
+#testimonials {
+    margin: 20px;
+    padding: 30px;
+    min-height: 700px;
+}
+
+#contact {
+    margin: 20px;
+    padding: 30px;
+    min-height: 200px;
+}
+
+#testimonials ul {
+    justify-content: center;
+    text-align: center;
+}
+
+#testimonials li {
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: center;
+}
+
+#footer {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    height: 30px;
+    padding: 10px 0;
+}
+
+#footer h1 {
+    font-size: 12px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 36px;
+    color: rgb(49, 110, 189);
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0;
+}
+
+hr {
+    border-color: rgb(49, 110, 189);
+    opacity: 0.75;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.left hr {
+    border-color: rgb(50, 50, 50);
+    opacity: 0.75;
+    margin: 0;
+}
